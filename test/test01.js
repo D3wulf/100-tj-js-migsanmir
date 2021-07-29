@@ -1,8 +1,6 @@
-const geekshubs = (index) => {
+function geekshubs(index) {
 
-    let numeros = []
-
-
+    let numeros = [];
 
     for (let i = 1; i <= index; i++) {
 
@@ -16,21 +14,15 @@ const geekshubs = (index) => {
     }
     numeros.splice(0, 1);
 
-    // numeros.forEach((misNumeros, index, arr) => {
+    let resultado = numeros
+        .join("\n")
+        .toString();
 
-    //     console.log({ misNumeros, index, arr });
 
-    // });
-    let resultado = numeros.join("\n").toString();
     //console.log(resultado);
-
-
 
     return resultado;
 }
-
-
-
 
 
 module.exports = { geekshubs };
