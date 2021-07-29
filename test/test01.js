@@ -25,4 +25,4 @@ function geekshubs(index) {
 }
 
 
-module.exports = { geekshubs };
+module.exports = geekshubs;
